@@ -28,6 +28,38 @@ create an account.
 programming part
 - After that click on create
 - Next, search for webhooks and select it
-- After clicking the webhooks, now you want to select “Receive a web
-request” and give an event name as per your wish. In my case, I have given
-buzzer
+- After clicking the webhooks, now you want to select “Receive a web request” and give an event name as per your wish. In my case, I have given buzzer.
+## SWOT Analysis
+- this project is use full for house activity sensor in emergency alert.
+- The system detects the abnormal activity and sends immediately an emergency alert
+- The main aim to recognize the any abnormal activity and their movements
+## 4W's and 1'H
+* What: This project is very use full for human fall activity using ultrasonic sensor
+* Where:To overall maintaince becomes a easily
+* When:The system detects the abnormal activity and sends immediately an emergency alert
+* Why: The tools organise this information in a way that makes it easy for you to find the entires again the data may also be searchable.
+* How: it works simple and easily using ultrasonic Sensor
+## Detail Requirements
+_HIGH LEVEL REQUIREMENTS_
+|   ID  |    Descripition   |        Status      |
+| ----  |  ---------------- | ------------------ |
+| HLR1  | Login and sign up | user need to access |
+| HLR2  | search filter     | filter by princes abd product |
+## final report
+* In this paper, we monitor Patient through a sensor. Human activity recognition using ultrasonic sensor provides fast and accurate decision making in health care application.
+* The system detects the abnormal activity and sends immediately an emergency alert.
+* The main aim of the system is to predict the activity before the event occurs.
+# TESTPLAN:
+### Table no: High level test plan
+|  ID  |   Test scenario  |   Test Data     |
+|----- | -----------------|-----------------                                        |
+| 1 |   Main men         | IFTTT is a web-based service by which we can create chains of conditional statements, called applets. Using these applets, we can send Emails, posts to Twitter, posts to Facebook, play music, SMS, notifications, etc. |
+| 2 | STEPS TO IFTTT    | To use the IFTTT, sign in to your IFTTT account if you already have one or create an account. |
+| 3 | Documentation Program | Now, click on the documentation to get the key which will be used in our programming part. |
+| 4 | Create a list  | [1] After that click on create [2] then click on “this”  |
+| 5 | search for webhooks | After clicking the webhooks, now you want to select “Receive a web request” and give an event name as per your wish. In my case, I have given fall detect   |
+| 6 | buzzer | then click on create action  |
+| 7 | Final step | if you want to play any song when the magnitude exceeds the thresh hold value, you can set any song to play by repeating these all step from the creating part but instead of clicking Android SMS, you want to select Android Service, then you want to select play a specific song to play any song as per your wish.   |
+| 8 | Exit | After that click on Create Action. |
+## Ecpected output
+
