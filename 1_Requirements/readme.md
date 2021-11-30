@@ -22,13 +22,10 @@ f this all sounds interesting, you can try it out yourself very easily using an 
 
 ## Defining our System
 * While radar and ultrasonic sensors can be used for some of the same purposes, sound-based sensors are readily available—they can be had for just a couple dollars in some cases—and in certain situations, they may detect objects more effectively than radar.For instance, while radar, or even light-based sensors, have a difficult time correctly processing clear plastic, ultrasonic sensors have no problem with this. In fact, they’re unaffected by the color of the material they are sensing.On the other hand, if an object is made out of a material that absorbs sound or is shaped in such a way that it reflects the sound waves away from the receiver, readings will be unreliable.
-- To use the IFTTT, sign in to your IFTTT account if you already have one or
-create an account.
-- Now, click on the documentation to get the key which will be used in our
-programming part
-- After that click on create
-- Next, search for webhooks and select it
-- After clicking the webhooks, now you want to select “Receive a web request” and give an event name as per your wish. In my case, I have given buzzer.
+- ATmega16 microcontroller needs to transmit at least 10 us trigger pulse to the HC-SR04 Trig Pin.
+- After getting a trigger pulse, HC-SR04 automatically sends eight 40 kHz sound waves and the microcontroller waits for rising edge output at the Echo pin.
+- When the rising edge capture occurs at the Echo pin which is connected to an input of ATmega16, start Timer of ATmega16 and again wait for a falling edge on the Echo pin.
+- As soon as the falling edge is captured at the Echo pin, the microcontroller reads the count of the Timer. This time count is used to calculate the distance to an object.
 ## SWOT Analysis
 - this project is use full for house activity sensor in emergency alert.
 - The system detects the abnormal activity and sends immediately an emergency alert
