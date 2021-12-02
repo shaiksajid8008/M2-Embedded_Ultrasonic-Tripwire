@@ -58,3 +58,11 @@ _HIGH LEVEL REQUIREMENTS_
 | 6 | buzzer | then click on create action  |
 | 7 | Final step | if you want to play any song when the magnitude exceeds the thresh hold value, you can set any song to play by repeating these all step from the creating part but instead of clicking Android SMS, you want to select Android Service, then you want to select play a specific song to play any song as per your wish.   |
 | 8 | Exit | After that click on Create Action. |
+### Design
+## High level design
+![image](https://www.researchgate.net/profile/Prerna-Sharma-8/publication/336552267/figure/fig4/AS:814153979666432@1571120843237/Flowchart-of-intelligent-object-detection-and-avoidance-system-V-CONCLUSIONS-The-goal-of.ppm)
+## Block diagram
+![image](https://www.researchgate.net/profile/Rashidah-Olanrewaju/publication/323714986/figure/fig1/AS:657387664969732@1533744841839/System-operation-flowchart.png)
+
+## Behavioural Diagrams
+![image](https://www.electronicwings.com/public/images/user_images/images/ATmega_20160622/ATmega_Ultrasonic/ATmega16%20LCD%20Ultrasonic%20Module.png)
