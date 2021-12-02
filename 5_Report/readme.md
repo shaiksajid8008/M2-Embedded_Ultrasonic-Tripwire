@@ -46,18 +46,6 @@ _HIGH LEVEL REQUIREMENTS_
 * In this paper, we monitor Patient through a sensor. Human activity recognition using ultrasonic sensor provides fast and accurate decision making in health care application.
 * The system detects the abnormal activity and sends immediately an emergency alert.
 * The main aim of the system is to predict the activity before the event occurs.
-# TESTPLAN:
-### Table no: High level test plan
-|  ID  |   Test scenario  |   Test Data     |
-|----- | -----------------|-----------------                                        |
-| 1 |   Main men         | IFTTT is a web-based service by which we can create chains of conditional statements, called applets. Using these applets, we can send Emails, posts to Twitter, posts to Facebook, play music, SMS, notifications, etc. |
-| 2 | STEPS TO IFTTT    | To use the IFTTT, sign in to your IFTTT account if you already have one or create an account. |
-| 3 | Documentation Program | Now, click on the documentation to get the key which will be used in our programming part. |
-| 4 | Create a list  | [1] After that click on create [2] then click on “this”  |
-| 5 | search for webhooks | After clicking the webhooks, now you want to select “Receive a web request” and give an event name as per your wish. In my case, I have given fall detect   |
-| 6 | buzzer | then click on create action  |
-| 7 | Final step | if you want to play any song when the magnitude exceeds the thresh hold value, you can set any song to play by repeating these all step from the creating part but instead of clicking Android SMS, you want to select Android Service, then you want to select play a specific song to play any song as per your wish.   |
-| 8 | Exit | After that click on Create Action. |
 ### Design
 ## High level design
 ![image](https://www.researchgate.net/profile/Prerna-Sharma-8/publication/336552267/figure/fig4/AS:814153979666432@1571120843237/Flowchart-of-intelligent-object-detection-and-avoidance-system-V-CONCLUSIONS-The-goal-of.ppm)
@@ -66,3 +54,24 @@ _HIGH LEVEL REQUIREMENTS_
 
 ## Behavioural Diagrams
 ![image](https://user-images.githubusercontent.com/91029826/144367461-52d7c8b8-a474-4ce7-84e4-5db6326b2d5f.png)
+# Test Plan
+## High Level Test Plan
+| ID | Description | Ex I/P | Ex O/P | Actual Output |
+| -- | ----------- | ------ | ------ | ------------- |
+| HLT1 | Power On | Power supply | LCD ON | PASS |
+| HL2 | Sensor  | Objects In the range  | Objects detected | PASS |
+| HLR3 | Output | Output of the Sensor | Distance of objects | PASS |
+
+## Low Level Test Plan 
+| ID | Description | Ex I/P | Ex O/P | Actual Output |
+| -- | ----------- | ------ | ------ | ------------- |
+| LLT1 | Objects Range  | 20cm   | Ojects in range | PASS |
+| LLT2 | Objects Range  | 100cm  | Objects Not in range | PASS |
+### Expected output
+  __OFF__
+
+![image](https://user-images.githubusercontent.com/91029826/144368442-4565e888-4cf0-4dd4-8e62-5d31654e1dd5.png)
+
+  __ON__
+  
+  ![image](https://user-images.githubusercontent.com/91029826/144378249-08c3fd8f-ac64-4d57-bf84-5a199f439f51.png)
