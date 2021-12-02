@@ -9,3 +9,5 @@
 
 * When a pulse of 10µsec or more is given to the Trig pin, 8 pulses of 40 kHz are generated. After this, the Echo pin is made high by the control circuit in the module.
 * When a pulse of 10µsec or more is given to the Trig pin, 8 pulses of 40 kHz are generated. After this, the Echo pin is made high by the control circuit in the module.
+### Expected output
+![image](https://github.com/shaiksajid8008/M2-Embedded_Ultrasonic-Tripwire/blob/main/2_Design/new.png?raw=true)
