@@ -3,8 +3,8 @@
 # Introduction
 * the main is to  Create a burglar-tripwire with the ultrasonic sensor. And These active detectors transmit ultrasonic sound waves that are inaudible to humans using frequencies between 15 kHz and 75 kHz. The Doppler shift principle is the underlying method of operation which detects a change in frequency due to object motion. This detection occurs when the object must cause a change in the ultrasonic frequency to the receiver relative to the transmitting frequency.
 # Research
-* Ultrasonic sensors work by emitting sound waves at a frequency too high for humans to hear. They then wait for the sound to be reflected back, calculating distance based on the time required. This is similar to how radar measures the time it takes a radio wave to return after hitting an object.
-* While some sensors use a separate sound emitter and receiver, it’s also possible to combine these into one package device, having an ultrasonic element alternate between emitting and receiving signals. This type of sensor can be manufactured in a smaller package than with separate elements, which is convenient for applications where size is at a premium.
+* Ultrasonic sensors work by emitting sound waves at a frequency too high for humans to hear. They then wait for the sound to be reflected back, calculating distance based on the time required.This is similar to how radar measures the time it takes a radio wave to return after hitting an object.
+* While some sensors use a separate sound emitter and receiver,it’s also possible to combine these into one package device,having an ultrasonic element alternate between emitting and receiving signals.This type of sensor can be manufactured in a smaller package than with separate elements,which is convenient for applications where size is at a premium.
 # Cost And Features
 ## costs:
 The Cost for the Ultrasonic Tripwire The running cost needs an working system with an the battery backsups.and we well use in this project is buzzer,ultrasonic sensor,Arduino nano R3 And it well cost more
