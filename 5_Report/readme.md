@@ -65,4 +65,4 @@ _HIGH LEVEL REQUIREMENTS_
 ![image](https://www.researchgate.net/profile/Rashidah-Olanrewaju/publication/323714986/figure/fig1/AS:657387664969732@1533744841839/System-operation-flowchart.png)
 
 ## Behavioural Diagrams
-![image](https://www.electronicwings.com/public/images/user_images/images/ATmega_20160622/ATmega_Ultrasonic/ATmega16%20LCD%20Ultrasonic%20Module.png)
+![image](https://user-images.githubusercontent.com/91029826/144367461-52d7c8b8-a474-4ce7-84e4-5db6326b2d5f.png)
